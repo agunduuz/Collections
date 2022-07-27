@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+div#container {
+  background: #dee2e7;
+  border-radius: 50px;
+  width: 66%;
+}
+
+/*  HEADER PART */
+div#container header {
+  padding: 70px 50px 30px 50px;
+}
+div#container header .hd-title h1 {
+  font-weight: 600;
+}
+div#container header .hd-category a {
+  text-decoration: none;
+  margin-right: 3px;
+  background: #fff;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-weight: 500;
+  color: #000;
+}
+
+/*  SECTION PART  */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+section .sn-box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 30px;
+}
+/*  Big Image  */
+section .sn-box .bx-picture {
+  width: 275px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+/* IMAGES */
+section .sn-box #bx-pic1 {
+  background-image: url('/img/IMG_0727 (3).jpg');
+}
+section .sn-box #bx-pic2 {
+  background-image: url('https://i.pinimg.com/564x/15/d2/27/15d227092e657cd19a32e70d7f0c2413.jpg');
+}
+section .sn-box #bx-pic3 {
+  background-image: url('https://i.pinimg.com/564x/70/43/4c/70434cfd7711df1509f9fdb13abda1ec.jpg');
+}
+
+section .sn-box .bx-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+/*  Small Photos  */
+section .sn-box .bx-images div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 85px;
+  height: 70px;
+}
+/* BOX 1 IMAGES */
+section .sn-box .bx-images #bx-img1 {
+  background-image: url('/img/IMG_4674.jpg');
+}
+section .sn-box .bx-images #bx-img2 {
+  background-image: url('/img/IMG_6515.jpg');
+}
+section .sn-box .bx-images #bx-img3 {
+  background-image: url('/img/IMG_9721.jpg');
+}
+/* BOX 2 IMAGES */
+section .sn-box .bx-images #bx-img4 {
+  background-image: url('https://picsum.photos/seed/picsum/200/300');
+}
+section .sn-box .bx-images #bx-img5 {
+  background-image: url('https://i.pinimg.com/564x/1b/21/f6/1b21f6516451b90d6d8f520c358b4cb2.jpg');
+}
+section .sn-box .bx-images #bx-img6 {
+  background-image: url('https://i.pinimg.com/564x/6d/2c/89/6d2c8978e2a56430f02e6d5a4d7b3bf6.jpg');
+}
+/* BOX 3 IMAGES */
+section .sn-box .bx-images #bx-img7 {
+  background-image: url('https://i.pinimg.com/564x/ca/21/20/ca21204641f09dbc40d292ca92a9f020.jpg');
+}
+section .sn-box .bx-images #bx-img8 {
+  background-image: url('https://i.pinimg.com/564x/62/5a/3b/625a3be71fb14c6319875a3dd67a3561.jpg');
+}
+section .sn-box .bx-images #bx-img9 {
+  background-image: url('https://i.pinimg.com/564x/86/7a/56/867a5698e0aefa3370ee05bc10c16336.jpg');
+}
+
+section .sn-box .bx-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .sn-box .bx-info h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+section .sn-box .bx-info div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .sn-box .bx-info div p {
+  font-size: 11px;
+  font-weight: 700;
+}
+section .sn-box .bx-info div img {
+  width: 25px;
+  margin-right: 5px;
+}
